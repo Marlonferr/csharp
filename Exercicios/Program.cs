@@ -1,9 +1,7 @@
-﻿using System;
-
-class Programa
+﻿class Program
 {
-    static void Main()
+    public static void Main()
     {
-        codigoerro.Executar();
+        Veto.Executar();
     }
 }
