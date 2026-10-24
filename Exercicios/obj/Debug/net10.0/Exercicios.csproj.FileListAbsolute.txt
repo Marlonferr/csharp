@@ -12,3 +12,4 @@ D:\Estudo de TI\ADS\PUC ADS\MeuPrograma\Exercicios\obj\Debug\net10.0\refint\Exer
 D:\Estudo de TI\ADS\PUC ADS\MeuPrograma\Exercicios\obj\Debug\net10.0\Exercicios.pdb
 D:\Estudo de TI\ADS\PUC ADS\MeuPrograma\Exercicios\obj\Debug\net10.0\Exercicios.genruntimeconfig.cache
 D:\Estudo de TI\ADS\PUC ADS\MeuPrograma\Exercicios\obj\Debug\net10.0\ref\Exercicios.dll
+D:\Estudo de TI\ADS\PUC ADS\MeuPrograma\Exercicios\obj\Debug\net10.0\Exercicios.sourcelink.json

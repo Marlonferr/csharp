@@ -1,0 +1,18 @@
+using System;
+
+class While
+{
+    public static void Executar()
+    {
+        double numero, raiz;
+        Console.Write("Digite um numero: ");
+        numero = double.Parse(Console.ReadLine());
+        while (numero > 0)
+        {
+            raiz = Math.Sqrt(numero);
+            Console.WriteLine($"A raiz quadrada de {numero} = {raiz}");
+            Console.Write("Digite um numero: ");
+            numero = double.Parse(Console.ReadLine());
+        }
+    }
+}

@@ -1,5 +1,6 @@
 
-class Hipotenusa
+
+public class Hipotenusa
 {
     public static void Executar()
     {
