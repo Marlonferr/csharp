@@ -2,6 +2,6 @@
 {
     public static void Main()
     {
-        Veto.Executar();
+        logicav.Executar();
     }
 }
