@@ -2,6 +2,6 @@
 {
     public static void Main()
     {
-        Veto.Executar();
+        notas.Executar();
     }
 }
