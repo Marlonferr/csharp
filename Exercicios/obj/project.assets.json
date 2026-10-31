@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\Exercicios\\Exercicios.csproj",
-      "projectName": "Exercicios",
-      "projectPath": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\Exercicios\\Exercicios.csproj",
+      "projectUniqueName": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\exercicios\\MeuPrograma.csproj",
+      "projectName": "MeuPrograma",
+      "projectPath": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\exercicios\\MeuPrograma.csproj",
       "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\Exercicios\\obj\\",
+      "outputPath": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\exercicios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config"

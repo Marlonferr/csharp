@@ -2,6 +2,6 @@
 {
     public static void Main()
     {
-        logicav.Executar();
+        notas.Executar();
     }
 }
