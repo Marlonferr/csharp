@@ -1,0 +1,29 @@
+using System;
+using System.Formats.Asn1;
+
+class learning
+
+{
+
+
+    public static void Executar()
+    {
+        double total; 
+        string nome1;
+        double salario;
+        double totalv;
+        Console.WriteLine("primeiro nome do vendedor: ");
+        nome1 = Console.ReadLine();
+        Console.WriteLine("salario fixo: ");
+        salario = double.Parse(Console.ReadLine());
+        Console.WriteLine("total de vendas: ");
+        totalv = double.Parse(Console.ReadLine());
+        total = (totalv * 0.15) + salario;
+        Console.WriteLine("TOTAL = " + total.ToString("F2"));
+        
+
+
+
+
+    }
+}
