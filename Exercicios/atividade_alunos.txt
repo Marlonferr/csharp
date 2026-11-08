@@ -1,0 +1,108 @@
+class learning /* Aqui seria uma class global para criar um vinculo em outro arquivo*/
+
+{
+
+
+    public static void Executar() /*Aqui é a função para executar o c# em outro local na mesma pasta*/
+    {
+
+        Console.WriteLine("digite as notas dos alunos 1,2,3,4,5");/* Aqui executa uma string*/
+        double[] a = alun1();
+        double[] b = alun2(); /* definindo um vetor x e atribuindo a função aluno1 para ele*/
+        double[] c = alun3();
+        double[] d = alun4();
+        double[] e = alun5();
+        double somat1 = a[0] + a[1] + a[2];
+        double somat2 = b[0] + b[1] + b[2];
+        double somat3 = c[0] + c[1] + c[2];
+        double somat4 = d[0] + d[1] + d[2];
+        double somat5 = e[0] + e[1] + e[2];
+        double media1 = (a[0] + b[0] + c[0] + d[0] + e[0]) / 5; /* Definindo a media1 cada indice da matriz e dividindo por 3*/
+        double media2 = (a[1] + b[1] + c[1] + d[1] + e[1]) / 5; /* Definindo a media1 cada indice da matriz e dividindo por 3*/
+        double media3 = (a[2] + b[2] + c[2] + d[2] + e[2]) / 5; /* Definindo a media1 cada indice da matriz e dividindo por 3*/
+        Console.WriteLine($"A média das notas da turma da primeira alicação foi: {media1}"); /*Exibindo a media1 das notas*/
+        Console.WriteLine($"A média das notas da turma da segunda alicação foi: {media2}"); /*Exibindo a media1 das notas*/
+        Console.WriteLine($"A média das notas da turma da terceira alicação foi: {media3}"); /*Exibindo a media1 das notas*/
+        Console.WriteLine($"A soma do aluno 1 das 3 provas é: {somat1}"); /*Exibindo a media1 das notas*/
+        Console.WriteLine($"A soma do aluno 2 das 3 provas é:  {somat2}"); /*Exibindo a media1 das notas*/
+        Console.WriteLine($"A soma do aluno 3 das 3 provas é:  {somat3}"); /*Exibindo a media1 das notas*/
+        Console.WriteLine($"A soma do aluno 4 das 3 provas é:  {somat4}"); /*Exibindo a media1 das notas*/
+        Console.WriteLine($"A soma do aluno 5 das 3 provas é:  {somat5}"); /*Exibindo a media1 das notas*/
+
+
+        static double[] alun1() /*atribuindo um double[] que seria uma matriz para retornar promentendo retornar a matriz e ua função alun1*/
+        {
+            double[] aluno1 = new double[3]; /* definindo um double matriz e atribuindo uma variavel e com isso definindo 3 novos vetores*/
+            double notat1 = 0; /* definindo um double e uma variavel notat1 e definindo */
+            for (int i = 0; i < aluno1.Length; i++) /* uma laço de repetição for */
+            {
+                Console.WriteLine($"Digite a {i + 1} nota do aluno1"); /* definindo como sera exibido*/
+                aluno1[i] = double.Parse(Console.ReadLine()); /* atribuindo a entrada de cada contador no vetor alun1*/
+                notat1 += aluno1[i]; /* pegando todo o contador com cada indice e colocando na notat1*/
+                Console.WriteLine($"total das notas é {notat1}"); /* exibindo*/
+
+            }
+
+            return (aluno1); /*retornando o aluno1 que seria o vetor com a matriz como promedido no começo da função em double[]*/
+
+        }
+        static double[] alun2() /*atribuindo um double[] que seria uma matriz para retornar promentendo retornar a matriz e ua função alun1*/
+        {
+            double[] aluno2 = new double[3]; /* definindo um double matriz e atribuindo uma variavel e com isso definindo 3 novos vetores*/
+            double notat2 = 0; /* definindo um double e uma variavel notat1 e definindo */
+            for (int i = 0; i < aluno2.Length; i++) /* uma laço de repetição for */
+            {
+                Console.WriteLine($"Digite a {i + 1} nota do aluno2"); /* definindo como sera exibido*/
+                aluno2[i] = double.Parse(Console.ReadLine()); /* atribuindo a entrada de cada contador no vetor alun1*/
+                notat2 += aluno2[i]; /* pegando todo o contador com cada indice e colocando na notat1*/
+                Console.WriteLine($"total das notas é {notat2}"); /* exibindo*/
+
+            }
+            return (aluno2); /*retornando o aluno1 que seria o vetor com a matriz como promedido no começo da função em double[]*/
+
+        }
+
+        static double[] alun3() /*atribuindo um double[] que seria uma matriz para retornar promentendo retornar a matriz e ua função alun1*/
+        {
+            double[] aluno3 = new double[3]; /* definindo um double matriz e atribuindo uma variavel e com isso definindo 3 novos vetores*/
+            double notat3 = 0; /* definindo um double e uma variavel notat1 e definindo */
+            for (int i = 0; i < aluno3.Length; i++) /* uma laço de repetição for */
+            {
+                Console.WriteLine($"Digite a {i + 1} nota do aluno 3"); /* definindo como sera exibido*/
+                aluno3[i] = double.Parse(Console.ReadLine()); /* atribuindo a entrada de cada contador no vetor alun1*/
+                notat3 += aluno3[i]; /* pegando todo o contador com cada indice e colocando na notat1*/
+                Console.WriteLine($"total das notas é {notat3}"); /* exibindo*/
+
+            }
+            return (aluno3); /*retornando o aluno1 que seria o vetor com a matriz como promedido no começo da função em double[]*/
+        }
+        static double[] alun4() /*atribuindo um double[] que seria uma matriz para retornar promentendo retornar a matriz e ua função alun1*/
+        {
+            double[] aluno4 = new double[3]; /* definindo um double matriz e atribuindo uma variavel e com isso definindo 3 novos vetores*/
+            double notat4 = 0; /* definindo um double e uma variavel notat1 e definindo */
+            for (int i = 0; i < aluno4.Length; i++) /* uma laço de repetição for */
+            {
+                Console.WriteLine($"Digite a {i + 1} nota do aluno 4"); /* definindo como sera exibido*/
+                aluno4[i] = double.Parse(Console.ReadLine()); /* atribuindo a entrada de cada contador no vetor alun1*/
+                notat4 += aluno4[i]; /* pegando todo o contador com cada indice e colocando na notat1*/
+                Console.WriteLine($"total das notas é {notat4}"); /* exibindo*/
+
+            }
+            return (aluno4); /*retornando o aluno1 que seria o vetor com a matriz como promedido no começo da função em double[]*/
+        }
+        static double[] alun5() /*atribuindo um double[] que seria uma matriz para retornar promentendo retornar a matriz e ua função alun1*/
+        {
+            double[] aluno5 = new double[3]; /* definindo um double matriz e atribuindo uma variavel e com isso definindo 3 novos vetores*/
+            double notat5 = 0; /* definindo um double e uma variavel notat1 e definindo */
+            for (int i = 0; i < aluno5.Length; i++) /* uma laço de repetição for */
+            {
+                Console.WriteLine($"Digite a {i + 1} nota do aluno 5"); /* definindo como sera exibido*/
+                aluno5[i] = double.Parse(Console.ReadLine()); /* atribuindo a entrada de cada contador no vetor alun1*/
+                notat5 += aluno5[i]; /* pegando todo o contador com cada indice e colocando na notat1*/
+                Console.WriteLine($"total das notas é {notat5}"); /* exibindo*/
+
+            }
+            return (aluno5); /*retornando o aluno1 que seria o vetor com a matriz como promedido no começo da função em double[]*/
+        }
+    }
+}

@@ -2,6 +2,6 @@
 {
     public static void Main()
     {
-        notas.Executar();
+        learning.Executar();
     }
 }
