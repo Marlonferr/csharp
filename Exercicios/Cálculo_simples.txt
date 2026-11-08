@@ -1,0 +1,33 @@
+
+
+class learning
+
+{
+
+
+    public static void Executar()
+    {
+
+
+             int val = int.Parse(Console.ReadLine());
+Console.WriteLine(val); 
+        int[] vet = new int[7];
+
+
+        for (int i = 0; i < vet.Length; i++)
+        {
+            vet[0] = 100;
+            vet[1] = 50;
+            vet[2] = 20;
+            vet[3] = 10;
+            vet[4] = 5;
+            vet[5] = 2;
+            vet[6] = 1;
+            int quantidade = val / vet[i];
+            Console.WriteLine($"{quantidade} nota(s) de R$ {vet[i]},00");
+            val = val % vet[i];
+
+        }
+    }
+
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\Exercicios\\MeuPrograma.csproj": {}
+    "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\exercicios\\MeuPrograma.csproj": {}
   },
   "projects": {
-    "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\Exercicios\\MeuPrograma.csproj": {
+    "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\exercicios\\MeuPrograma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\Exercicios\\MeuPrograma.csproj",
+        "projectUniqueName": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\exercicios\\MeuPrograma.csproj",
         "projectName": "MeuPrograma",
-        "projectPath": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\Exercicios\\MeuPrograma.csproj",
+        "projectPath": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\exercicios\\MeuPrograma.csproj",
         "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
-        "outputPath": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\Exercicios\\obj\\",
+        "outputPath": "D:\\Estudo de TI\\ADS\\PUC ADS\\MeuPrograma\\exercicios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
